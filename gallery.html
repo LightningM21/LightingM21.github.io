@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/gallery.css">
+    <title>Gallery</title>
+</head>
+<body>
+    <header>
+        <h1>Gallery</h1>
+        <ul>
+            <li><a href="family.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="news.html">News</a></li>
+            <li title="You're already Here">Gallery</li>
+        </ul>
+    </header>
+<div>
+    <img src="images/family1.jpg" alt="family pic" class="move-up">
+    <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" title="Very Safe"><img src="images/mom and dad.jpg" alt="mom and dad"></a>
+    <img src="images/family2.jpg" alt="family pic" class="move-up">
+    <img src="images/mom.jpg" alt="mom" width="30%" class="move-up" style="bottom: 24vw;">
+    <img src="images/tito and tiwa.jpg" alt="mom" width="30%">
+    <img src="images/tito and tiwa2.jpg" alt="mom" width="30%" class="move-up" style="bottom: 23vw;">
+</div>
+<div class="video-container">
+    <video muted  style="top: 200vh;"><source src="images/me and tami.MP4" type="video/mp4"></video>
+</div>
+
+<div class="video-container" style="bottom: 40vw; left: 30.5vw;">
+    <video muted  style="top: 200vh;"><source src="images/6F3A3F1C-66A9-4F0C-8C08-EBE13ABE5056.MP4" type="video/mp4"></video>
+</div>
+
+<div class="video-container" style="bottom: 100vw; left: 61vw;">
+    <video muted  style="top: 200vh;"><source src="images/88DD98DC-D6AA-456E-ABB8-C6F7827D11EE.MP4" type="video/mp4"></video>
+</div>
+
+<div class="video-container" style="bottom: 100vw; left: 61vw;">
+    <video muted  style="top: 200vh;"><source src="images/family.MP4" type="video/mp4"></video>
+</div>
+
+<div class="video-container" style="bottom: 140vw;">
+    <video muted  style="top: 200vh;"><source src="images/me and dad.MP4" type="video/mp4"></video>
+</div>
+
+<div class="video-container" style="bottom: 157vw; left: 30.5vw;">
+    <video muted  style="top: 200vh;"><source src="images/me tise and dad.MP4" type="video/mp4"></video>
+</div>
+
+<script>
+    // Get all video elements
+    const videos = document.querySelectorAll('.video-container video');
+
+    // Loop through each video and attach the event listeners
+    videos.forEach(video => {
+        video.addEventListener('mouseenter', () => {
+            video.play();
+        });
+
+        video.addEventListener('mouseleave', () => {
+            video.pause();
+            video.currentTime = 0; // Optional: Reset video to start when it stops
+        });
+    });
+</script>
+
+
+<footer><img src="images/collection.jpg" alt="collections" id="end"></footer>
+<p>Now Go back Up and CLick every image you see</p>
+    
+</body>
+</html>
