@@ -1,11 +1,9 @@
 /*Headings*/
 header{
-    height: 16.5vh;
+    height: 16.5vw;
     font-size: 1.4vw;
     background-image: linear-gradient(to top,rgb(48, 48, 48), rgb(153, 153, 153));
     text-align: center;
-    position: relative;
-    bottom: 25px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-radius: 10px;
 }
@@ -18,13 +16,13 @@ header ul{
 }
 header li{
     float: left;
-    margin-left: 1.5%;
+    margin-left: 1.5vw;
     padding-left: 0%;
     position: relative;
     left: -30px;
     color: antiquewhite;
     font-family: 'Courier New', Courier, monospace;
-    font-size: calc(10px + 1vw);
+    font-size: 3vw;
 }
 header li:hover{
     background-color: rgb(41, 41, 41);
