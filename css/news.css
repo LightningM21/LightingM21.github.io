@@ -24,7 +24,7 @@ header li{
     left: -30px;
     color: antiquewhite;
     font-family: 'Courier New', Courier, monospace;
-    font-size: calc(10px + 1vw);
+    font-size: 3vw;
 }
 header li:hover{
     background-color: rgb(41, 41, 41);
@@ -41,6 +41,16 @@ header img{
     position: relative;
     right: 45%;
     margin: 0%;
+}
+@media(min-width: 300px){
+    header{
+        height: calc(20px + 20vw);
+    }
+}
+@media(min-width: 600px){
+    header{
+        height: calc(10px + 15vw);
+    }
 }
 /* Headings*/
 
