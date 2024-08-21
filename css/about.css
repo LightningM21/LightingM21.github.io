@@ -40,6 +40,16 @@ header img{
     right: 45%;
     margin: 0%;
 }
+@media(min-width: 300px){
+    header{
+        height: calc(20px + 20vw);
+    }
+}
+@media(min-width: 600px){
+    header{
+        height: calc(10px + 15vw);
+    }
+}
 /* Headings*/
 
 /*Body*/
