@@ -36,6 +36,16 @@ header li a{
     text-decoration: none;
     color: antiquewhite;
 }
+@media(min-width: 300px){
+    header{
+        height: calc(20px + 20vw);
+    }
+}
+@media(min-width: 600px){
+    header{
+        height: calc(10px + 15vw);
+    }
+}
 /* Headings*/
 #header_pic{
     width: 90%;
