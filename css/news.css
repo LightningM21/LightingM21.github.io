@@ -1,20 +1,20 @@
 /*Headings*/
 header{
     height: 16.5vw;
-    font-size: 1.4vw;
     background-image: linear-gradient(to top,rgb(48, 48, 48), rgb(153, 153, 153));
     text-align: center;
     position: relative;
-
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-radius: 10px;
-}
-header p{
-    color: aliceblue;
-    font-family: 'Courier New', Courier, monospace;
+    margin: 0%;
 }
 header ul{
     list-style-type: none;
+}
+
+header h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: calc(25px + 2vw);
 }
 header li{
     float: left;
@@ -24,7 +24,7 @@ header li{
     left: -30px;
     color: antiquewhite;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 3vw;
+    font-size: calc(12px + 1vw);
 }
 header li:hover{
     background-color: rgb(41, 41, 41);
@@ -49,7 +49,7 @@ header img{
 }
 @media(min-width: 600px){
     header{
-        height: calc(10px + 15vw);
+        height: calc(10px + 12vw);
     }
 }
 /* Headings*/

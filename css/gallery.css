@@ -22,7 +22,7 @@ header ul{
 }
 @media(min-width: 600px){
     header{
-        height: calc(10px + 15vw);
+        height: calc(10px + 12vw);
     }
 }
 
@@ -34,7 +34,7 @@ header li{
     left: -30px;
     color: antiquewhite;
     font-family: 'Courier New', Courier, monospace;
-    font-size: calc(16px + 1vw);
+    font-size: calc(12px + 1vw);
 }
 header li:hover{
     background-color: rgb(41, 41, 41);

@@ -4,6 +4,7 @@ header{
     font-size: 1.4vw;
     background-image: linear-gradient(to top,rgb(48, 48, 48), rgb(153, 153, 153));
     text-align: center;
+    position: relative;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-radius: 10px;
 }
@@ -11,16 +12,12 @@ header h1{
     font-family: 'Courier New', Courier, monospace;
     font-size: calc(25px + 2vw);
 }
-header p{
-    color: aliceblue;
-    font-family: 'Courier New', Courier, monospace;
-}
 header ul{
     list-style-type: none;
 }
 header li{
     float: left;
-    margin-left: 1.5vw;
+    margin-left: 1.5%;
     padding-left: 0%;
     position: relative;
     left: -30px;
@@ -38,12 +35,6 @@ header li a{
     text-decoration: none;
     color: antiquewhite;
 }
-header img{
-    width: 10%;
-    position: relative;
-    right: 45%;
-    margin: 0%;
-}
 @media(min-width: 300px){
     header{
         height: calc(20px + 20vw);
@@ -55,45 +46,21 @@ header img{
     }
 }
 /* Headings*/
-
-/*Body*/
-body{
-    overflow-x: hidden;
-}
-div video{
-    padding: 0;
-}
-div h2{
+#header_pic{
+    width: 90%;
     position: relative;
-    left:10%;
-    font-size: calc(10px + 1vw);
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 2.3%;
+    background-color: rgb(209,231,81);
+    padding: 1% 3% 1% 3%;
+    border-radius: 3%;
+    margin-top: 3vw;
 }
-div{
-    display: block;
-    border-radius: 5px;
-    padding: 1%;
-}
-div:hover{
-    background-color: rgb(172, 172, 172);
-    transition-duration: 1s;
-}
-div li{
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;    
-    font-size: calc(5px + 1vw);
-}
-
-/*Footer*/
-footer{
+p{
     text-align: center;
+    font-size: 1.6vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-footer p::after{
-    content: "...";
-    font-size: 2vw;
-    color:blue;
-}
-
-footer p:hover::after{
-    content:"The weights and height included here is simply based off estimates and recent conversations.";
+li a{
+    text-decoration: none;
+    color: antiquewhite;
 }
