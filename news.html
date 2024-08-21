@@ -1,71 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/news.css">
-    <title> News</title>
-</head>
+/*Headings*/
+header{
+    height: 16.5vw;
+    font-size: 1.4vw;
+    background-image: linear-gradient(to top,rgb(48, 48, 48), rgb(153, 153, 153));
+    text-align: center;
+    position: relative;
 
-<body>
-   <body>
-    <header>
-        <h1>News</h1>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li ><a href="about.html">About</a></li>
-            <li title="You're already Here">News</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-        </ul>
-    </header> 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+}
+header p{
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+header ul{
+    list-style-type: none;
+}
+header li{
+    float: left;
+    margin-left: 1.5%;
+    padding-left: 0%;
+    position: relative;
+    left: -30px;
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: calc(10px + 1vw);
+}
+header li:hover{
+    background-color: rgb(41, 41, 41);
+    border-radius: 5px;
+    padding: 3px;
+    font-weight: bold;
+}
+header li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+header img{
+    width: 10%;
+    position: relative;
+    right: 45%;
+    margin: 0%;
+}
+/* Headings*/
 
-<div id="dad">
-    <h2>Akinwale Tunmbi</h2>
-    <ul>
-        <li>???</li>
-      </ul>
-</div>
-        
-<div id="mom">
-        <h2>Helen Tunmbi (Eseoghene)</h2>
-            <ul>
-                <li>???</li>
-            </ul>
-        </div>
-        
-        <div id="tami">
-            <h2>Oluwatamilore Tunmbi</h2>
-            <ul>
-                <li>Went to Mexico</li>
-                <li>Birthday in a few days</li>
-                <li>Is short</li>
-            </ul>          
-        </div>
-        
-        <div id="tise">
-            <h2>Oluwatisefunmi Tunmbi</h2>
-                <ul>
-                    <li>Big Boi</li>
-                    <li>Is probably gonna start balding early in life</li>
-                </ul>   
-        </div>
-        
-        <div id="tito">
-            <h2>Oluwatitofunmi Tunmbi</h2>
-                <ul>
-                    <li>😎</li>
-                    <li>Is just like that</li>
-                    <li>Is becoming a sophomore</li>
-                </ul>   
-        </div>
-        
-        <div id="tiwa">
-            <h2>Oluwatiwafunmi Tunmbi</h2>
-                <ul>
-                    <li>Is basically a toothpick</li>
-                    <li>Headin into another school</li>
-                    <li>Plays MM2</li>
-                </ul>   
-        </div>
-</body>
-</html>
+/*Body*/
+body{
+    overflow-x: hidden;
+}
+div h2{
+    position: relative;
+    left:10%;
+    font-size: calc(10px + 1vw);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div{
+    display: block;
+    border-radius: 5px;
+    padding: 1%;
+}
+div:hover{
+    background-color: rgb(172, 172, 172);
+    transition-duration: 1s;
+}
+div li{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;    
+    font-size: calc(5px + 1vw);
+}
